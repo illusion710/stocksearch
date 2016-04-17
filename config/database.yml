@@ -20,6 +20,7 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
+  username: illusion710
 
 development:
   <<: *default
@@ -80,6 +81,9 @@ test:
 #
 production:
   <<: *default
-  database: stocksearch_production
-  username: stocksearch
-  password: <%= ENV['STOCKSEARCH_DATABASE_PASSWORD'] %>
+  database: daoadu5tussoci
+  username: cbomszjreglqcq
+  password: 6KQcWHfOw3oIjoGytKLChWbVYw
+  url: postgres://cbomszjreglqcq:6KQcWHfOw3oIjoGytKLChWbVYw@ec2-54-163-254-197.compute-1.amazonaws.com:5432/daoadu5tussoci
+#  password: <%= ENV['STOCKSEARCH_DATABASE_PASSWORD'] %>
+#  port: 5432
